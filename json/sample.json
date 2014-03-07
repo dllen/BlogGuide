@@ -5,7 +5,7 @@
       {
          "name": "HelloWorld!",
          "type": "text",
-         "contents": "Hello World!",
+         "contents": "Hello World! This is so cool...",
          "description": "FOOO"
       },
 	  {
@@ -13,16 +13,16 @@
 		"type":"dir",
 		"contents":[
 			{
-				 "name": "Linux",
-				 "type": "img",
-				 "contents": "/BlogGuide/images/penguin.png",
-				 "caption": "What a beautiful penguin."
+			 "name":"Linux",
+			 "type":"img",
+			 "contents":"/BlogGuide/images/penguin.png",
+			 "caption":"What a beautiful penguin."
 			},
 			{
-				 "name": "Ant",
-				 "type": "img",
-				 "contents": "/BlogGuide/images/ant.jpg",
-				 "caption": "What a beautiful ant."
+			 "name":"Ant",
+			 "type":"img",
+			 "contents":"/BlogGuide/images/ant.jpg",
+			 "caption":"What a beautiful ant."
 			}
 		]
 	  },
