@@ -19,7 +19,7 @@ CONFIG.prompt = function(cwd, user) {
       return '<span class="user">' + user +
           '</span>@<span class="host">www.scp.net.cn</span>:<span class="cwd">' +
           cwd + '</span>$ ';
-   return 'jsterm1.0 $ ';
+   return 'BlogGuide $ ';
 };
 
 CONFIG.username = '';
