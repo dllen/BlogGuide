@@ -15,6 +15,18 @@
          "description": "DLLEN"
       },
 	  {
+		 "name":"Linux",
+		 "type":"img",
+		 "contents":"/BlogGuide/images/penguin.png",
+		 "caption":"What a beautiful penguin."
+		},
+		{
+		 "name":"Ant",
+		 "type":"img",
+		 "contents":"/BlogGuide/images/ant.jpg",
+		 "caption":"What a beautiful ant."
+		},
+	  {
 		"name":"图片",
 		"type":"dir",
 		"contents":[
