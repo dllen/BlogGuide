@@ -3,7 +3,7 @@
    "type": "dir",
    "contents": [
       {
-         "name": "file1",
+         "name": "HelloWorld!",
          "type": "text",
          "contents": "Hello World!",
          "description": "FOOO"
@@ -11,30 +11,50 @@
       {
          "name": "pic.jpg",
          "type": "img",
-         "contents": "/images/penguin.png",
+         "contents": "/BlogGuide/images/penguin.png",
          "caption": "What a beautiful penguin."
       },
       {
-         "name": "dir1",
+         "name": "我的博客",
          "type": "dir",
          "contents": [
             {
-               "name": "file2",
-               "type": "text",
-               "contents": "foo"
+               "name": "愣愣的Blog",
+               "type": "exec",
+               "contents": "http://www.scp.net.cn/",
+			   "description":"学习编程的足迹"
             },
-            {
-               "name": "foo",
-               "type": "dir",
-               "contents": [
-                  {
-                     "name": "file3",
-                     "type": "exec",
-                     "contents": "http://google.com",
-                     "description": "blahblah"
-                  }
-               ]
-            }
+			{
+               "name": "Dllen's Blog",
+               "type": "exec",
+               "contents": "http://git.scp.net.cn/",
+			   "description":"我的GitHub博客..."
+            },
+			{
+               "name": "码工的作坊",
+               "type": "exec",
+               "contents": "http://coder.scp.net.cn/",
+			   "description":"编程方面的知识..."
+            },
+			{
+               "name": "假装有经验",
+               "type": "exec",
+               "contents": "http://life.scp.net.cn/",
+			   "description":"不创造知识，只是知识的搬运工"
+            },
+			{
+				"name": "乱七八糟",
+				"type": "dir",
+				"contents": [
+					{
+					 "name": "暧昧的怀旧",
+					 "type": "exec",
+					 "contents": "http://llscp.byethost18.com/",
+					 "description": "我的第一个耍耍博客"
+					}
+				]
+			 }
+            
          ]
       }
    ]
