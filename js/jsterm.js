@@ -489,7 +489,7 @@
       term.enqueue('login')
           .enqueue('lengleng')
           .enqueue('******')
-          .enqueue('cat readme.json')
+          .enqueue('cat READE')
           .enqueue('help')
           .enqueue('ls -l')
           .enqueue('tree')
