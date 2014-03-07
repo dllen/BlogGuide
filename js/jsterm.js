@@ -493,6 +493,7 @@
           .enqueue('help')
           .enqueue('ls -l')
           .enqueue('tree')
+		  .enqueue('gimp Linux')
           .begin();
    });
 
