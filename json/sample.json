@@ -27,8 +27,6 @@
 		 "caption":"What a beautiful ant."
 		},
 	  {
-		"name":"\u56fe\u7247",
-		"type":"dir",
 		"contents":[
 			{
 			 "name":"Linux",
@@ -42,12 +40,11 @@
 			 "contents":"/BlogGuide/images/ant.jpg",
 			 "caption":"What a beautiful ant."
 			}
-		]
+		],
+		"name":"\u56fe\u7247",
+		"type":"dir"
 	  },
-      {
-         "name": "\u6211\u7684\u535a\u5ba2",
-         "type": "dir",
-         "contents": [
+      {   "contents": [
             {
                "name": "\u6123\u6123\u7684\u42\u6c\u6f\u67",
                "type": "exec",
@@ -72,20 +69,21 @@
                "contents": "http://life.scp.net.cn/",
 			   "description":"\u4e0d\u521b\u9020\u77e5\u8bc6\uff0c\u53ea\u662f\u77e5\u8bc6\u7684\u642c\u8fd0\u5de5"
             },
-			{
-				"name": "\u4e71\u4e03\u516b\u7cdf",
-				"type": "dir",
-				"contents": [
+			{	"contents": [
 					{
 					 "name": "\u66a7\u6627\u7684\u6000\u65e7",
 					 "type": "exec",
 					 "contents": "http://llscp.byethost18.com/",
 					 "description": "\u6211\u7684\u7b2c\u4e00\u4e2a\u800d\u800d\u535a\u5ba2"
 					}
-				]
+				],
+				"name": "\u4e71\u4e03\u516b\u7cdf",
+				"type": "dir"
 			 }
             
-         ]
+         ],
+         "name": "\u6211\u7684\u535a\u5ba2",
+         "type": "dir"
       }
    ]
 }
