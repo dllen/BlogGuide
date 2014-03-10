@@ -1,89 +1,50 @@
 {
-   "name": "~",
-   "type": "dir",
-   "contents": [
-      {
-         "name": "HelloWorld!",
-         "type": "text",
-         "contents": "Hello World! This is so cool...",
-         "description": "FOOO"
-      },
-	  {
-         "name": "README",
-         "type": "text",
-         "contents": "Welcome to blog of lengleng. <br>It is built on <span class='dir'><a href='https://github.com/clarkduvall/jsterm'>jsterm</a></span>.<br>View source code：<span class='dir'> <a href='https://github.com/dllen/BlogGuide'>https://github.com/dllen/BlogGuide</a></span>",
-         "description": "DLLEN"
-      },
-	  {
-		 "name":"Linux",
-		 "type":"img",
-		 "contents":"/BlogGuide/images/penguin.png",
-		 "caption":"What a beautiful penguin."
-		},
-		{
-		 "name":"Ant",
-		 "type":"img",
-		 "contents":"/BlogGuide/images/ant.jpg",
-		 "caption":"What a beautiful ant."
-		},
-	  {
-		"contents":[
-			{
-			 "name":"Linux",
-			 "type":"img",
-			 "contents":"/BlogGuide/images/penguin.png",
-			 "caption":"What a beautiful penguin."
-			},
-			{
-			 "name":"Ant",
-			 "type":"img",
-			 "contents":"/BlogGuide/images/ant.jpg",
-			 "caption":"What a beautiful ant."
-			}
-		],
-		"name":"\u56fe\u7247",
-		"type":"dir"
-	  },
-      {   "contents": [
-            {
-               "name": "\u6123\u6123\u7684\u42\u6c\u6f\u67",
-               "type": "exec",
-               "contents": "http://www.scp.net.cn/",
-			   "description":"\u5b66\u4e60\u7f16\u7a0b\u7684\u8db3\u8ff9"
-            },
-			{
-               "name": "Dllen's Blog",
-               "type": "exec",
-               "contents": "http://git.scp.net.cn/",
-			   "description":"\u6211\u7684\u47\u69\u74\u48\u75\u62\u535a\u5ba2\u2e\u2e\u2e"
-            },
-			{
-               "name": "\u7801\u5de5\u7684\u4f5c\u574a",
-               "type": "exec",
-               "contents": "http://coder.scp.net.cn/",
-			   "description":"\u7f16\u7a0b\u65b9\u9762\u7684\u77e5\u8bc6\u2e\u2e\u2e"
-            },
-			{
-               "name": "\u5047\u88c5\u6709\u7ecf\u9a8c",
-               "type": "exec",
-               "contents": "http://life.scp.net.cn/",
-			   "description":"\u4e0d\u521b\u9020\u77e5\u8bc6\uff0c\u53ea\u662f\u77e5\u8bc6\u7684\u642c\u8fd0\u5de5"
-            },
-			{	"contents": [
-					{
-					 "name": "\u66a7\u6627\u7684\u6000\u65e7",
-					 "type": "exec",
-					 "contents": "http://llscp.byethost18.com/",
-					 "description": "\u6211\u7684\u7b2c\u4e00\u4e2a\u800d\u800d\u535a\u5ba2"
-					}
-				],
-				"name": "\u4e71\u4e03\u516b\u7cdf",
-				"type": "dir"
-			 }
-            
-         ],
-         "name": "\u6211\u7684\u535a\u5ba2",
-         "type": "dir"
-      }
-   ]
+    "name": "~", 
+    "type": "dir", 
+    "contents": [
+        {
+            "name": "HelloWorld!", 
+            "type": "text", 
+            "contents": "Hello World! This is so cool...", 
+            "description": "FOOO"
+        }, 
+        {
+            "name": "README", 
+            "type": "text", 
+            "contents": "Welcome to blog of lengleng. <br>It is built on <span class='dir'><a href='https://github.com/clarkduvall/jsterm'>jsterm</a></span>.<br>View source code：<span class='dir'> <a href='https://github.com/dllen/BlogGuide'>https://github.com/dllen/BlogGuide</a></span>", 
+            "description": "DLLEN"
+        }, 
+        {
+            "name": "Linux", 
+            "type": "img", 
+            "contents": "/BlogGuide/images/penguin.png", 
+            "caption": "What a beautiful penguin."
+        }, 
+        {
+            "name": "Ant", 
+            "type": "img", 
+            "contents": "/BlogGuide/images/ant.jpg", 
+            "caption": "What a beautiful ant."
+        }, 
+        {
+            "name": "愣愣的Blog", 
+            "type": "exec", 
+            "contents": "http://www.scp.net.cn/"
+        }, 
+        {
+            "name": "Dllen's Blog", 
+            "type": "exec", 
+            "contents": "http://git.scp.net.cn/"
+        }, 
+        {
+            "name": "码工的作坊", 
+            "type": "exec", 
+            "contents": "http://coder.scp.net.cn/"
+        }, 
+        {
+            "name": "假装有经验", 
+            "type": "exec", 
+            "contents": "http://life.scp.net.cn/"
+        }
+    ]
 }
