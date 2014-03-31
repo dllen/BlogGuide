@@ -134,6 +134,7 @@
     <script src="./static/bootstrap-typeahead.js"></script>  
 	<script>
 		$(document).ready(function(){
+			alert(typeof WeixinJSBridge)
 			function WeiXinAddContact(wxid)
 			{
 				if (typeof WeixinJSBridge == 'undefined') return false;
@@ -147,7 +148,10 @@
 						// add_contact:ok 关注成功
 						// add_contact:added 已经关注
 					   // WeixinJSBridge.log(d.err_msg);
-						
+						if(e.err_msg == 'add_contact:added' || e.err_msg == 'add_contact:ok'){  
+								//关注成功，或者已经关注过
+							alert('关注成功，或者已经关注过');								
+						}  	
 					});
 			};
 			$('#addContact').click(function(){
