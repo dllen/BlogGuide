@@ -45,6 +45,11 @@
             "name": "假装有经验", 
             "type": "exec", 
             "contents": "http://life.scp.net.cn/"
-        }
+        },
+		{
+			"name": "测试微信关注", 
+            "type": "exec", 
+            "contents": "http://dllen.github.io/BlogGuide/testwe/add.htm"
+		}
     ]
 }
