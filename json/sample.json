@@ -13,43 +13,6 @@
             "type": "text", 
             "contents": "Welcome to blog of lengleng. <br>It is built on <span class='dir'><a href='https://github.com/clarkduvall/jsterm'>jsterm</a></span>.<br>View source code：<span class='dir'> <a href='https://github.com/dllen/BlogGuide'>https://github.com/dllen/BlogGuide</a></span>", 
             "description": "DLLEN"
-        }, 
-        {
-            "name": "Linux", 
-            "type": "img", 
-            "contents": "/BlogGuide/images/penguin.png", 
-            "caption": "What a beautiful penguin."
-        }, 
-        {
-            "name": "Ant", 
-            "type": "img", 
-            "contents": "/BlogGuide/images/ant.jpg", 
-            "caption": "What a beautiful ant."
-        }, 
-        {
-            "name": "愣愣的Blog", 
-            "type": "exec", 
-            "contents": "http://www.scp.net.cn/"
-        }, 
-        {
-            "name": "Dllen's Blog", 
-            "type": "exec", 
-            "contents": "http://git.scp.net.cn/"
-        }, 
-        {
-            "name": "码工的作坊", 
-            "type": "exec", 
-            "contents": "http://coder.scp.net.cn/"
-        }, 
-        {
-            "name": "假装有经验", 
-            "type": "exec", 
-            "contents": "http://life.scp.net.cn/"
-        },
-		{
-			"name": "测试微信关注", 
-            "type": "exec", 
-            "contents": "http://dllen.github.io/BlogGuide/testwe/add.htm"
-		}
+        }
     ]
 }
